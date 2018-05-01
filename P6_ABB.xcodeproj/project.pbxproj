@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		991584702098A3B900C695FC /* dni.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9915846E2098A3B900C695FC /* dni.cpp */; };
+		991584782098DEFF00C695FC /* dni.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 991584762098DEFF00C695FC /* dni.cpp */; };
 		995D242C20963497001C5006 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995D242B20963497001C5006 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9915846E2098A3B900C695FC /* dni.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dni.cpp; path = "../../../../Practica4/P4_Hash/P4_Hash/DNI /dni.cpp"; sourceTree = "<group>"; };
-		9915846F2098A3B900C695FC /* dni.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dni.hpp; path = "../../../../Practica4/P4_Hash/P4_Hash/DNI /dni.hpp"; sourceTree = "<group>"; };
+		991584762098DEFF00C695FC /* dni.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dni.cpp; path = P6_ABB/DNI/dni.cpp; sourceTree = SOURCE_ROOT; };
+		991584772098DEFF00C695FC /* dni.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dni.hpp; path = P6_ABB/DNI/dni.hpp; sourceTree = SOURCE_ROOT; };
 		995D242820963497001C5006 /* P6_ABB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P6_ABB; sourceTree = BUILT_PRODUCTS_DIR; };
 		995D242B20963497001C5006 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,13 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9915846D2098A38700C695FC /* DNI */ = {
+		991584722098DE8700C695FC /* DNI */ = {
 			isa = PBXGroup;
 			children = (
-				9915846E2098A3B900C695FC /* dni.cpp */,
-				9915846F2098A3B900C695FC /* dni.hpp */,
+				991584762098DEFF00C695FC /* dni.cpp */,
+				991584772098DEFF00C695FC /* dni.hpp */,
 			);
-			path = DNI;
+			name = DNI;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		995D241F20963497001C5006 = {
@@ -70,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				995D242B20963497001C5006 /* main.cpp */,
-				9915846D2098A38700C695FC /* DNI */,
+				991584722098DE8700C695FC /* DNI */,
 			);
 			path = P6_ABB;
 			sourceTree = "<group>";
@@ -132,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				995D242C20963497001C5006 /* main.cpp in Sources */,
-				991584702098A3B900C695FC /* dni.cpp in Sources */,
+				991584782098DEFF00C695FC /* dni.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
