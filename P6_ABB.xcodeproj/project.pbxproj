@@ -28,6 +28,7 @@
 		991584772098DEFF00C695FC /* dni.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dni.hpp; path = P6_ABB/DNI/dni.hpp; sourceTree = SOURCE_ROOT; };
 		995D242820963497001C5006 /* P6_ABB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P6_ABB; sourceTree = BUILT_PRODUCTS_DIR; };
 		995D242B20963497001C5006 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		99910FA82099DCF100B61314 /* cola.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cola.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +72,26 @@
 			isa = PBXGroup;
 			children = (
 				995D242B20963497001C5006 /* main.cpp */,
+				99910FA62099DCD900B61314 /* COLA */,
+				99910FA52099DC7400B61314 /* ABB */,
 				991584722098DE8700C695FC /* DNI */,
 			);
 			path = P6_ABB;
+			sourceTree = "<group>";
+		};
+		99910FA52099DC7400B61314 /* ABB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ABB;
+			sourceTree = "<group>";
+		};
+		99910FA62099DCD900B61314 /* COLA */ = {
+			isa = PBXGroup;
+			children = (
+				99910FA82099DCF100B61314 /* cola.hpp */,
+			);
+			path = COLA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
