@@ -178,6 +178,8 @@ void ABB<TDato> :: insertar_rama(node<TDato>*& nodo, const TDato& clave, node<TD
         else{
             nodo->set_pad(prev);
         }
+        
+        nodo->aumentar_cont();
     }
     
     else{
@@ -196,7 +198,8 @@ void ABB<TDato> :: insertar_rama(node<TDato>*& nodo, const TDato& clave, node<TD
             
             else{
                 
-                cout << endl << "CLAVE YA INSERTADA" << endl;
+                // cout << endl << "CLAVE YA INSERTADA" << endl;
+                nodo->aumentar_cont();
             }
         }
     }
@@ -232,25 +235,33 @@ void ABB<TDato> :: eliminar_rama(node<TDato>*& nodo, const TDato& clave){
     }
                 
     else{
-                    
-        node<TDato>* eliminado = nodo;
-                    
-        if(nodo->get_der() == NULL){
-                        
-            nodo = nodo->get_izq();
-        }
-                    
-        else if(nodo->get_izq() == NULL){
-                            
-            nodo = nodo->get_der();
+        
+        if(nodo->get_cont() > 1){
+            
+            nodo->disminuir_cont();
         }
         
         else{
             
-            sustituye(eliminado, nodo->get_izq());
+            node<TDato>* eliminado = nodo;
+            
+            if(nodo->get_der() == NULL){
+                
+                nodo = nodo->get_izq();
+            }
+            
+            else if(nodo->get_izq() == NULL){
+                
+                nodo = nodo->get_der();
+            }
+            
+            else{
+                
+                sustituye(eliminado, nodo->get_izq());
+            }
+            
+            delete eliminado;
         }
-        
-        delete eliminado;
     }
 }
 

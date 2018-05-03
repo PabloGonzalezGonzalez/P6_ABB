@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "P6_ABB/ABB/arbol.hpp"
-            timestampString = "547043119.287421"
+            timestampString = "547049846.888252"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "168"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "P6_ABB/ABB/arbol.hpp"
-            timestampString = "547043119.2880909"
+            timestampString = "547049846.8886271"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "333"
-            endingLineNumber = "333"
+            startingLineNumber = "344"
+            endingLineNumber = "344"
             landmarkName = "write(ostream&amp; os, node&lt;TDato&gt;*&amp; nodo)"
             landmarkType = "9">
          </BreakpointContent>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "P6_ABB/ABB/arbol.hpp"
-            timestampString = "547043119.288711"
+            timestampString = "547049846.888873"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "169"
@@ -58,12 +58,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "P6_ABB/ABB/arbol.hpp"
-            timestampString = "547043119.289084"
+            timestampString = "547049846.889112"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "334"
-            endingLineNumber = "334"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
             landmarkName = "write(ostream&amp; os, node&lt;TDato&gt;*&amp; nodo)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "P6_ABB/main.cpp"
+            timestampString = "547049846.8893321"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "main(void)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

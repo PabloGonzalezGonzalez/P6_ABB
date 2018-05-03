@@ -23,6 +23,8 @@ private:
     node<TDato>* pad_;
     TDato dato_;
     
+    int cont_;
+    
 public:
     node();
     node(const TDato& t);
@@ -41,6 +43,10 @@ public:
     node<TDato>* get_pad(void) const;
     TDato get_dato(void) const;
     
+    void aumentar_cont(void);
+    void disminuir_cont(void);
+    int get_cont(void);
+    
     node<TDato>& operator=(const node<TDato>& n);
     
     ostream& write(ostream& os);
@@ -55,7 +61,8 @@ node<TDato> :: node():
     izq_(NULL),
     der_(NULL),
     pad_(NULL),
-    dato_()
+    dato_(),
+    cont_(0)
 {}
 
 
@@ -64,7 +71,8 @@ node<TDato> :: node(const TDato& t):
     izq_(NULL),
     der_(NULL),
     pad_(NULL),
-    dato_(t)
+    dato_(t),
+    cont_(0)
 {}
 
 
@@ -193,6 +201,32 @@ ostream& node<TDato> :: write(ostream& os){
         os << "· Hijo izq: NULL" << endl;
     }
 }
+
+/* */
+
+
+template<class TDato>
+void node<TDato> :: aumentar_cont(void){
+    
+    this->cont_ ++;
+}
+
+
+template<class TDato>
+void node<TDato> :: disminuir_cont(void){
+    
+    this->cont_ --;
+}
+
+
+template<class TDato>
+int node<TDato> :: get_cont(void){
+    
+    return (this->cont_);
+}
+
+
+
 
 /* */
 
