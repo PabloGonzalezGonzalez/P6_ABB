@@ -30,7 +30,7 @@ public:
     TDato pop_dato(int& n);
     
     bool empty(void);
-}
+};
 
 
 /* */
@@ -38,8 +38,8 @@ public:
 
 template<class TDato>
 cola<TDato> :: cola():
-    queue_(NULL),
-    cola_(NULL)
+    niveles_(),
+    cola_()
 {}
 
 
@@ -77,7 +77,7 @@ TDato cola<TDato> :: pop_dato(int& n){
 template<class TDato>
 bool cola<TDato> :: empty(void){
     
-    if(this->queue_.empty() && this->niveles_.empty()){
+    if(this->cola_.empty() && this->niveles_.empty()){
         return true;
     }
     
